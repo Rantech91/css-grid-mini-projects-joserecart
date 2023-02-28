@@ -186,17 +186,8 @@ CARDS PROJECT
     color: var(--primaryColor);
 }
 
-@media screen and (min-width: 768px) {
-    .cards-center {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 0 2rem;
-    }
-}
-
-@media screen and (min-width: 1170px) {
-    .cards-center {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 0 2rem;
-    }
+.cards-center {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(368px, 1fr));
 }
