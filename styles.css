@@ -1,0 +1,28 @@
+/* ==============
+Variables
+=================*/
+:root {
+    --primaryColor: #f15025;
+    --mainBlack: #222;
+    --mainWhite: #fff;
+    --offWhite: #f7f7f7;
+    --darkGrey: #afafaf;
+    --mainTransition: all 0.3 linear;
+    --mainSpacing: 0.2rem;
+}
+
+/* ==============
+Global Styles
+=================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fira Code', monospace;
+    color: var(--mainBlack);
+    background: var(--mainWhite);
+    line-height: 1.5;
+}
