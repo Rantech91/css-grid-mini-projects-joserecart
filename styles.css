@@ -186,6 +186,14 @@ CARDS PROJECT
     color: var(--primaryColor);
 }
 
+/* fix for one card text making everything else out of order (stretching the rest of the cards) */
+.card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+}
+
+
 .cards-center {
     display: grid;
     gap: 2rem;
